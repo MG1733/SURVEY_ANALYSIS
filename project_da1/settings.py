@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'project_da1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'HOST': 'db.szbfmsqjgmzijwgwexey.supabase.co',
+        'HOST': 'dpg-d4qrtqp5pdvs738tla40-a.virginia-postgres.render.com',
         'PORT': '5432',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'MohanABC1733',
+        'NAME': 'survey_db_2xw2',
+        'USER': 'survey_db_2xw2_user',
+        'PASSWORD': 'v02DpBceZlTxoKTZVvMRlP6m6o6o3rQc',
         'OPTIONS': {
             'sslmode': 'require',
         },
